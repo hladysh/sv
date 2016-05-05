@@ -1,0 +1,50 @@
+    .navbar-brand {
+      left: 2%;
+      position: relative;
+    }
+    
+    .navbar-toggle {
+      right: 2%;
+    }
+    
+    .navbar a,
+    .sec-about p {
+      text-align: center;
+    }
+    
+    .navbar a {
+      font-size: 16px;
+    }
+    
+    .navbar .fa-external-link {
+      font-size: 10px;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+      color: #000 !important;
+    }
+    
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+    }
+    
+    .navbar-default {
+      background: #fff;
+      text-transform: uppercase;
+    }
+    
+    .navbar .fa-external-link {
+      vertical-align: top;
+    }
+    
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+      color: #ad0000;
+    }
+    
+    .navbar-default .navbar-nav > li > a:active {
+      color: #940000;
+    }
+    
