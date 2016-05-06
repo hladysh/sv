@@ -181,6 +181,14 @@
         padding: 3px 20px;
         font-size: 20px;
     }
+    .text_img {
+    width: 134px;
+    }
+    .text_img_html, .text_img_css, .text_img_js, .text_img_jqeury, .text_img_photoshop, .text_img_git {
+    left: 40px;
+        
+    }
+    .text_img_js {top: -89px;}
 }
 
 @media only screen and (max-width: 500px) {
@@ -347,5 +355,26 @@
         width: 70%;
         margin: 0 auto;
         margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .text_img_html,
+    .text_img_css,
+    .text_img_js,
+    .text_img_jqeury,
+    .text_img_photoshop,
+    .text_img_git {
+        left: 27px;
+    }
+}
+@media only screen and (max-width: 360px) {
+        .text_img_html,
+    .text_img_css,
+    .text_img_js,
+    .text_img_jqeury,
+    .text_img_photoshop,
+    .text_img_git {
+        left: 7px;
     }
 }
