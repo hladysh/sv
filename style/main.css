@@ -32,7 +32,6 @@ p {margin: 0;}
 .heders_section {
     min-height: 640px;
     background-image: url(../img/bacgraund.jpg);
-    background-color: #696E0E;
     background-size: cover;
     margin: 0 auto;
     color: #fff;
