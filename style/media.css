@@ -49,9 +49,9 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
-    .nav_header ul li a {
-        padding-left: 34px;
-    }
+    /*.nav_header ul li a {*/
+    /*    padding-left: 34px;*/
+    /*}*/
     .nav_header ul {
         margin: 0;
         padding: 0;
@@ -64,6 +64,9 @@
     .my_foto,
     .mygoal_text {
         position: relative;
+    }
+    .section_h2  {
+    padding: 20px 0;
     }
     .img_wrap {
         position: relative;
@@ -146,9 +149,9 @@
     .sayts_wrap {
         margin-bottom: 0px;
     }
-    .navbar-default.navbar-collapse.in  {
-        background-color: red !important;
-    }
+    /*.navbar-default.navbar-collapse.in  {*/
+    /*    background-color: red !important;*/
+    /*}*/
 }
 
 
@@ -173,9 +176,9 @@
         line-height: 59px;
         margin-top: -20px;
     }
-    .heders_section {
-        min-height: 540px;
-    }
+    /*.heders_section {*/
+    /*    min-height: 540px;*/
+    /*}*/
 }
 
 @media only screen and (max-width: 768px) and (min-width: 436px) {
