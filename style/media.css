@@ -174,7 +174,8 @@
         font-size: 13px;
     }
     .img_text_wrap {
-        transform: translate(0, -62%);
+        -webkit-transform: translate(0, -62%);
+                transform: translate(0, -62%);
     }
     .img_text_wrap span {
         padding: 3px 20px;
@@ -283,7 +284,8 @@
         font-size: 11px;
     }
     .img_text_wrap {
-        transform: translate(0, -62%);
+        -webkit-transform: translate(0, -62%);
+                transform: translate(0, -62%);
     }
     .img_text_wrap span {
         padding: 1px 20px;
