@@ -112,22 +112,22 @@
 }
 
 @media only screen and (max-width: 780px) {
-    .mygoal_text, .my_contacts {
-        text-align: center;
-        margin-top: 0;
-    }
-    .center-block {
-        margin: 0 auto;
-        float: none;
-    }
-    .mygoal_text,
-    .my_foto,
-    .my_contacts {
-        left: 0;
-    }
-    .my_section {
-        margin: 0;
-    }
+    /*.mygoal_text, .my_contacts {*/
+    /*    text-align: center;*/
+    /*    margin-top: 0;*/
+    /*}*/
+    /*.center-block {*/
+    /*    margin: 0 auto;*/
+    /*    float: none;*/
+    /*}*/
+    /*.mygoal_text,*/
+    /*.my_foto,*/
+    /*.my_contacts {*/
+    /*    left: 0;*/
+    /*}*/
+    /*.my_section {*/
+    /*    margin: 0;*/
+    /*}*/
 }
 
 
@@ -139,10 +139,10 @@
         width: 50%;
         margin: 0 auto;
     }
-    .my_syts a img:nth-child(1),
-    .my_syts a img:nth-child(3) {
-        margin-bottom: 40px;
-    }
+    /*.my_syts a img:nth-child(1),*/
+    /*.my_syts a img:nth-child(3) {*/
+    /*    margin-bottom: 40px;*/
+    /*}*/
     .sayts_wrap {
         margin-bottom: 0px;
     }

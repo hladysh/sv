@@ -9,14 +9,18 @@ body {
 	position: relative;
 	line-height: 1.6em;
 	max-width: 1400px;
-	overflow-x:  hidden;
+	/*overflow-x:  hidden;*/
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
-
+header {
+    min-width: 1160px;
+    margin: 0 auto;
+    /*overflow-x: hidden;*/
+}
 .heders_section {
 	min-height: 640px;
 	background-image: url(../img/bacgraund.jpg);
