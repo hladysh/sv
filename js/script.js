@@ -11,8 +11,7 @@ $('#btn-send').click(function(e) {
 		},
 		dataType: "json"
 	}).done(function() {
-		$('#wrap_form').html('<h3>Thank you!</h3>')
-
+		alert('Thank you for your application soon we will contact you!')
 	});
 });
 
