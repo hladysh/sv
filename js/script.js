@@ -1,6 +1,5 @@
 $('#btn-send').click(function(e) {
 	e.preventDefault();
-	// Please set your email in url field
 	$.ajax({
 		url: "https://formspree.io/hladysh.im@gmail.com",
 		method: "POST",
@@ -11,8 +10,11 @@ $('#btn-send').click(function(e) {
 		},
 		dataType: "json"
 	}).done(function() {
-		alert('Thank you for your application soon we will contact you!')
+		alert("Thanks, I'll write to you!")
+		$('input').val('');
+		$('textarea').val('');
 	});
+	
 });
 
 $(function() {
