@@ -34,9 +34,9 @@ $(document).ready(function() {
 	$('.popup').magnificPopup({type:'image'});
 });
 
-$(window).load(function(){
-	$('.contacts_feedback form').animated('zoomIn', 'fadeOut');
-	$('.skil_wrap').animated('fadeInRight', 'fadeOut');
-	$('.heders_section h1').animated('zoomIn', 'fadeOut');
-	$('.my_foto img').animated('pulse', 'fadeOut');
-});
+// $(window).load(function(){
+// // 	$('.contacts_feedback form').animated('zoomIn', 'fadeOut');
+// // 	$('.skil_wrap').animated('fadeInRight', 'fadeOut');
+// // 	$('.heders_section h1').animated('zoomIn', 'fadeOut');
+// // 	$('.my_foto img').animated('pulse', 'fadeOut');
+// // });
