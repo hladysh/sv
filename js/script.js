@@ -38,5 +38,5 @@ $(window).load(function(){
 	$('.contacts_feedback form').animated('zoomIn', 'fadeOut');
 	$('.skil_wrap').animated('fadeInRight', 'fadeOut');
 	$('.heders_section h1').animated('zoomIn', 'fadeOut');
-	$('.my_foto img').animated('pulse', 'fadeOut');
+	$('.my_foto img').animated('pulse', 'fadeIn');
 });
