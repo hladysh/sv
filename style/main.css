@@ -250,7 +250,7 @@ p {margin: 0;}
 .text_img_html {
     background: #E44D26;
     top: -70px;
-    left: 15px;
+    left: 0px;
     color: #fff;
 }
 
@@ -261,7 +261,7 @@ p {margin: 0;}
 .text_img_css {
     background: #29A8E0;
     top: -94px;
-    left: 15px;
+    left: 0px;
     color: #fff;
 }
 
@@ -272,7 +272,7 @@ p {margin: 0;}
 .text_img_js {
     background: #E5A228;
     top: -70px;
-    left: 15px;
+    left: 0px;
     color: #fff;
 }
 
@@ -283,7 +283,7 @@ p {margin: 0;}
 .text_img_jqeury {
     background: #fff;
     top: -94px;
-    left: 15px;
+    left: 0px;
     color: #000;
 }
 
@@ -294,7 +294,7 @@ p {margin: 0;}
 .text_img_photoshop {
     background: #0070BA;
     top: -70px;
-    left: 15px;
+    left: 0px;
     color: #fff;
 }
 
@@ -305,7 +305,7 @@ p {margin: 0;}
 .text_img_git {
     background: #EB4A4B;
     top: -70px;
-    left: 15px;
+    left: 0px;
     color: #fff;
 }
 

@@ -34,7 +34,7 @@
     .text_img_jqeury,
     .text_img_photoshop,
     .text_img_git {
-        left: 0px;
+        left: -13px;
     }
 }
 
@@ -84,7 +84,7 @@
     .text_img_jqeury,
     .text_img_photoshop,
     .text_img_git {
-        left: 45px;
+        left: 35px;
     }
     .text_img {
         width: 156px;
@@ -149,6 +149,14 @@
     .no_padding_768 {
         padding: 0;
         margin: 0;
+    }    
+    .text_img_html,
+    .text_img_css,
+    .text_img_js,
+    .text_img_jqeury,
+    .text_img_photoshop,
+    .text_img_git {
+        left: -10px;
     }
 }
 
@@ -185,7 +193,7 @@
     width: 134px;
     }
     .text_img_html, .text_img_css, .text_img_js, .text_img_jqeury, .text_img_photoshop, .text_img_git {
-    left: 40px;
+    left: -7px;
         
     }
     .text_img_js {top: -89px;}
@@ -365,7 +373,7 @@
     .text_img_jqeury,
     .text_img_photoshop,
     .text_img_git {
-        left: 27px;
+        left: -12px;
     }
 }
 @media only screen and (max-width: 360px) {
@@ -375,6 +383,6 @@
     .text_img_jqeury,
     .text_img_photoshop,
     .text_img_git {
-        left: 7px;
+        left: -25px;
     }
 }
