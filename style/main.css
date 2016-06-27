@@ -202,7 +202,15 @@ p {margin: 0;}
     padding-bottom: 30px;
     margin-bottom: 20px;
 }
-
+.resume  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #33485c;
+}
+.resume a:hover {
+    color: #2ecc71;
+    transition: 1s;
+}
 .skills h2 {
     padding-bottom: 55px;
     padding-top: 20px;
@@ -216,6 +224,11 @@ p {margin: 0;}
     text-align: center;
     width: 100%;
     height: auto;
+}
+.img_skills .skil_wrap:hover img {
+    width: 95%;
+    left: 7px;
+    transition: 1s;
 }
 
 .soft:hover .text_img {
@@ -325,7 +338,7 @@ p {margin: 0;}
     margin-bottom: 40px;
 }
 
-.imageWrapper {
+.image_wrapper {
     position: relative;
 }
 
@@ -342,7 +355,7 @@ p {margin: 0;}
     transition: ease-out .7s;
 }
 
-.imageWrapper:hover .work_img_text {
+.image_wrapper:hover .work_img_text {
     visibility: visible;
     opacity: 1;
     background: rgba(0, 0, 0, .65);
