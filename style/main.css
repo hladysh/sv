@@ -202,14 +202,20 @@ p {margin: 0;}
     padding-bottom: 30px;
     margin-bottom: 20px;
 }
-.resume  a{
+.resume a {
+    background-color: #026d2f;
+    padding: 2px 10px;
+    position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    color: #33485c;
+    color: #fff;
+    border: 2px solid #777;
 }
 .resume a:hover {
-    color: #2ecc71;
-    transition: 1s;
+    text-decoration: underline;
+    transition: 2s;
+    color : #fff;
+    border: 2px solid #fff;
 }
 .skills h2 {
     padding-bottom: 55px;
