@@ -338,8 +338,14 @@ p {margin: 0;}
 
 .my_syts a img {
     width: 100%;
+   min-height: 330px;
 }
-
+.remodal h2 {
+    text-transform: uppercase;
+}
+.remodal img {
+    margin-top: 20px;
+}
 .sayts_wrap {
     margin-bottom: 40px;
 }
