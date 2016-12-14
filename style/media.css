@@ -99,7 +99,8 @@
 }
 
 @media only screen and (max-width: 780px) {
-    .mygoal_text, .my_contacts {
+    .mygoal_text,
+    .my_contacts {
         text-align: center;
         margin-top: 0;
     }
@@ -149,7 +150,7 @@
     .no_padding_768 {
         padding: 0;
         margin: 0;
-    }    
+    }
     .text_img_html,
     .text_img_css,
     .text_img_js,
@@ -183,20 +184,26 @@
     }
     .img_text_wrap {
         -webkit-transform: translate(0, -62%);
-                transform: translate(0, -62%);
+        transform: translate(0, -62%);
     }
     .img_text_wrap span {
         padding: 3px 20px;
         font-size: 20px;
     }
     .text_img {
-    width: 134px;
+        width: 134px;
     }
-    .text_img_html, .text_img_css, .text_img_js, .text_img_jqeury, .text_img_photoshop, .text_img_git {
-    left: -7px;
-        
+    .text_img_html,
+    .text_img_css,
+    .text_img_js,
+    .text_img_jqeury,
+    .text_img_photoshop,
+    .text_img_git {
+        left: -7px;
     }
-    .text_img_js {top: -89px;}
+    .text_img_js {
+        top: -89px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -301,7 +308,7 @@
     }
     .img_text_wrap {
         -webkit-transform: translate(0, -62%);
-                transform: translate(0, -62%);
+        transform: translate(0, -62%);
     }
     .img_text_wrap span {
         padding: 1px 20px;
@@ -354,9 +361,7 @@
     i.fa.fa-envelope {
         font-size: 20px;
     }
-
 }
-
 
 @media only screen and (max-width: 768px) and (min-width: 436px) {
     form {
@@ -376,8 +381,9 @@
         left: -12px;
     }
 }
+
 @media only screen and (max-width: 360px) {
-        .text_img_html,
+    .text_img_html,
     .text_img_css,
     .text_img_js,
     .text_img_jqeury,

@@ -30,11 +30,13 @@ $(document).ready(function() {
 	$.stellar({
 		responsive: true
 	});
-	
-	$('.popup').magnificPopup({type:'image'});
+
+	$('.popup').magnificPopup({
+		type: 'image'
+	});
 });
 
-$(window).load(function(){
+$(window).load(function() {
 	$('.contacts_feedback form').animated('zoomIn', 'fadeOut');
 	$('.skil_wrap').animated('fadeInRight', 'fadeOut');
 	$('.heders_section h1').animated('zoomIn', 'fadeOut');
